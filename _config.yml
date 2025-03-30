@@ -1,9 +1,15 @@
 # Site settings
-title: "Start Bootstrap"
+title: "Your Favorite Source of Free Bootstrap Themes"
+sub_title: "Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!"
+home: Start Bootstrap
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+collections:
+  components:
+    output: true  # Prevents Jekyll from generating separate pages
 
 links:
   About: about
