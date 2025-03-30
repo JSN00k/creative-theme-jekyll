@@ -8,8 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 collections:
-  areas:
-    output: true  # Prevents Jekyll from generating separate pages
+  components:
+    output: false  # Prevents Jekyll from generating separate pages
 
 links:
   About: about

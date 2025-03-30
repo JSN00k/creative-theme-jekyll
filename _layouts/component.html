@@ -1,9 +1,9 @@
-{% if section_id %}
-<section {% if section_class %} class="{{ section_class }}" {% endif %} id="{{ section_id }}">
+{% if page.section_id %}
+<section {% if page.section_class %} class="{{ page.section_class }}" {% endif %} id="{{ page.section_id }}">
 {% endif %}
-<div class="{% if div_class %}{{ div_class }}{% else %}container{% endif %}">
+<div class="{% if page.div_class %}{{ page.div_class }}{% else %}container{% endif %}">
   {{ content }}
 <div>
-{% if section_id %}
+{% if page.section_id %}
 </section>
 {% endif %}
