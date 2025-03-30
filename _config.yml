@@ -1,7 +1,7 @@
 # Site settings
-title: "Your Favorite Source of Free Bootstrap Themes"
-sub_title: "Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!"
-home: Start Bootstrap
+home: Yarny and the Ant
+title: "Yarny and the Ant"
+sub_title: "Forest school for home educators by home educators. We run sessions in woodland near Titchfield, Hampshire. Our leaders have extensive knowledge of neurodiversity and SEND."
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
