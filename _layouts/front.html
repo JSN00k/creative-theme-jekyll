@@ -41,12 +41,14 @@
     </div>
   </header>
 
-  {% include call-to-action.html %}
-  {% include services.html %}
-  {% include portfolio.html %}
-  {% include aside.html %}
-  {% include contact.html %}
-  {% include scripts.html %}
+{% assign sorted_components = site.areas | sort: "order" %}
+
+{% for component in site.areas %}
+  {{ component.content }}
+  {% endfor %}
+
 </body>
+
+{% include scripts.html %}
 
 </html>
